@@ -69,8 +69,13 @@ function game(){
     {
         return "Player Wins!";
     }
-    else{
+    else if (p_count < c_count)
+    {
         return "Computer wins!";
+    }
+    else 
+    {
+        return "Oops, you're both equal!";
     }
 }
 
